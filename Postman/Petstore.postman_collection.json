@@ -16,11 +16,6 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"var jsonData = pm.request.jsonBody;",
-									"if (jsonData && jsonData.hasOwnProperty(\"username\")) {",
-									"    pm.environment.set(\"username\", jsonData.username);",
-									"}",
-									"",
 									"pm.test(\"200\", function () {",
 									"    pm.response.to.have.status(\"OK\");",
 									"});",
