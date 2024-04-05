@@ -36,5 +36,3 @@ jobs:
 
       - name: Run Postman collection
         run: newman run Postman/Petstore.postman_collection.json -e Postman/Petstore_Environment.postman_environment.json
-
-
