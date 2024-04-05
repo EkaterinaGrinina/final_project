@@ -1,0 +1,38 @@
+name: Final_project
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run custom script
+        run: sh status_code_script
+        
+  run_postman:
+    runs-on: ubuntu-latest
+    needs:
+    - run_script
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Node.js install
+        uses: actions/setup-node@v2
+        with:
+         node-version: '14'
+
+      - name: Newman install
+        run: npm install -g newman
+
+      - name: Run Postman collection
+        run: newman run Petstore.postman_collection.json -e Petstore_Environment.postman_environment.json
