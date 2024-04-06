@@ -12,6 +12,9 @@ jobs:
   run_script:
     runs-on: ubuntu-latest
 
+    env:
+     NUM: ${{ secrets.WEBSITE_ADDRESS }}
+
     steps:
       - uses: actions/checkout@v3
 
