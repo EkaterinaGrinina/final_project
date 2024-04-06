@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-     - name: Set environment
+      - name: Set environment
         run: echo "num=${{ secrets.WEBSITE_ADDRESS }}" >> $GITHUB_ENV
 
       - name: Run custom script
