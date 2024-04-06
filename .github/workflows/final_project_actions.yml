@@ -16,7 +16,11 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Run custom script
-        run: sh Scripts/status_code_script.sh
+        run: |
+         export WEBSITE_URL=$WEBSITE_ADDRESS
+         sh Scripts/status_code_script.sh
+        env:
+         WEBSITE_ADDRESS: ${{ secrets.WEBSITE_URL }}
         
   run_postman:
     runs-on: ubuntu-latest
