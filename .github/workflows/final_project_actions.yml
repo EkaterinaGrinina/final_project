@@ -15,12 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set environment
-        run: echo "NUM=${{ secrets.WEBSITE_ADDRESS }}" >> $GITHUB_ENV
-
       - name: Run custom script
-        run: |
-         sh Scripts/status_code_script.sh
+        env:
+         NUM: ${{ secrets.WEBSITE_ADDRESS }}
+        run: sh Scripts/status_code_script.sh
         
   run_postman:
     runs-on: ubuntu-latest
