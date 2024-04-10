@@ -12,7 +12,7 @@
 <p>✔ Working with <a href="https://github.com/EkaterinaGrinina/final_project/tree/main/Postman">Postman</a></p>
 <p>✔ Executing <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Bash%20commands/Bash%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B.pdf">Bash commands</a></p>
 <p>✔ Working with <a href="https://github.com/EkaterinaGrinina/final_project/tree/main/MySql%20">MySql</a></p>
-<p>✔ Create <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Scripts/status_code_script.sh">Scripts</a></p>
+<p>✔ Creating <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Scripts/status_code_script.sh">Scripts</a></p>
 <p>✔ Working with <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Charles/Charles.pdf">Charles</a></p>
 <p>✔ Understanding <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Client-Server%20architecture/Client-server_architecture.pdf">Client-server architecture</a></p>
-<p>✔ Create <a href="https://github.com/EkaterinaGrinina/final_project/actions">Jobs</a></p>
+<p>✔ Creating <a href="https://github.com/EkaterinaGrinina/final_project/actions">Jobs</a></p>
