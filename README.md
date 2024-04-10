@@ -14,5 +14,5 @@
 <p>✔ Working with <a href="https://github.com/EkaterinaGrinina/final_project/tree/main/MySql%20">MySql</a></p>
 <p>✔ Create <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Scripts/status_code_script.sh">Scripts</a></p>
 <p>✔ Working with <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Charles/Charles.pdf">Charles</a></p>
-<p>✔ Knowing <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Client-Server%20architecture/Client-server_architecture.pdf">Client-server architecture</a></p>
+<p>✔ Understanding <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Client-Server%20architecture/Client-server_architecture.pdf">Client-server architecture</a></p>
 <p>✔ Create <a href="https://github.com/EkaterinaGrinina/final_project/actions">Jobs</a></p>
