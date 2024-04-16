@@ -16,4 +16,4 @@
 <p>✔ Creating <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Scripts/status_code_script.sh">Scripts</a></p>
 <p>✔ Working with <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Charles/Charles.pdf">Charles</a></p>
 <p>✔ Understanding <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/Client-Server%20architecture/Client-server_architecture.pdf">Client-server architecture</a></p>
-<p>✔ Creating <a href="https://github.com/EkaterinaGrinina/final_project/actions">Jobs</a></p>
+<p>✔ Creating <a href="https://github.com/EkaterinaGrinina/final_project/actions">Pipilines</a> and <a href="https://github.com/EkaterinaGrinina/final_project/blob/main/.github/workflows/final_project_actions.yml"> Jobs</a> </p>
